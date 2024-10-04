@@ -1,7 +1,7 @@
 import {QueryClient} from "@tanstack/react-query";
 
 export const client:QueryClient = new QueryClient();
-export const backendUrl:string = "https://foodmart-server-o95g.onrender.com";
+export const backendUrl:string = "http://localhost:4000"";
 
 interface RequestParams{
     url:string;
