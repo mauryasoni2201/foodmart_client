@@ -1,0 +1,132 @@
+.header-content{
+    width: 100%;
+    background-color:#FFD7C4;
+    padding: 20px 0px;
+}
+.container{
+    width: 100%;
+    max-width: 1430px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+.header-content-wrapper{
+    display: flex;
+    justify-content:space-between;
+}
+.header-menu{
+    display: flex;
+    align-items: center;
+}
+.header-menu ul{
+    display: flex;
+    list-style: none;
+    gap:30px;
+}
+.header-menu ul li a{
+    text-decoration: none;
+    font-size: 22px;
+    line-height: 26px;
+    color:black;
+    font-weight: 600;
+    padding-bottom:20px;
+}
+.active{
+    font-weight: 700 !important;
+    border-bottom:17px solid black;
+}
+.menu-options{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    border: 1px solid #B5C0D0;
+    border-radius: 4px;
+    z-index: 5;
+    top:91%;
+}
+.login-signup{
+    display: flex;
+    align-items: center;
+}
+.menu-container{
+    position: relative;
+    max-width: 150px;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.menu-option{
+    text-align: center;
+    background-color:white;
+    padding: 15px;
+}
+.logout-button{
+    background-color:transparent;
+    padding: 0;
+}
+.logout-button,.menu-option a{
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 500;
+}
+.menu-option a{
+    text-decoration: none;
+}
+.open{
+    display: flex !important;
+}
+.close{
+    display: none;
+}
+@media(min-width:767px){
+    .header-menu,.menu-container,.login-signup{
+        display: flex;
+    }
+    .togglebutton{
+        display: none;
+    }
+}
+@media (max-width:767px){
+    .header-menu nav ul li{
+        text-align: center;
+    }
+    .active{
+        font-weight: 700 !important;
+        border-bottom:10px solid black;
+    }
+    .header-menu ul{
+        padding-top:20px;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .header-menu ul li a{
+        font-size: 18px;
+        line-height: 22px;
+        padding: 0px;
+    }
+    .header-content-wrapper{
+        flex-wrap: wrap;
+    }
+    .header-menu,.login-signup,.menu-container{
+        justify-content: center;
+        display: none;
+        width: 100%;
+    }
+    .login-signup{
+        padding-top: 20px;
+    }
+    .menu-container{
+        margin: 0 auto;
+        padding-top:30px;  
+    }
+    .togglebutton{
+        display: flex;
+        align-items: center;
+        padding: 0px 10px;
+    }
+    .togglebutton img{
+        background-color:black;
+        padding: 5px;
+        border-radius: 6px;
+    }
+}

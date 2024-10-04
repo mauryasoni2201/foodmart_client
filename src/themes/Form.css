@@ -1,0 +1,58 @@
+.form{
+    display: flex;  
+    justify-content: center;
+}
+.form form{
+    width: 100%;
+    max-width: 750px;
+    display: flex;
+    flex-direction: column;
+    row-gap:30px;
+}
+.form .input-wrapper input{
+    width: 100%;
+    height: 50px;
+    padding: 0px 5px;
+    border: 0;
+    border-bottom: 2px solid black;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 400;
+}
+.form .others{
+    width:initial !important;
+}
+.form .input-wrapper .others{
+    border-bottom: 0px;
+}
+.photo{
+    display: flex;
+    flex-direction: column;
+}
+.photo label{
+    font-size: 18px;
+    line-height: 22px;
+    padding-bottom:15px;
+    font-weight:600;
+}
+.validation-errors{
+    padding-top:5px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.photo .validation-errors{
+    row-gap: initial;
+    padding-top: 0px;
+}
+.input-wrapper select,.input-wrapper textarea{
+    width: 100%;
+    height: 50px;
+    border: 0;
+    padding: 0px 5px;
+    border-bottom: 2px solid black;
+    font-size: 18px;
+    line-height: 22px;
+}

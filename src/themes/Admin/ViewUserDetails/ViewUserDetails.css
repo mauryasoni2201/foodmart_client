@@ -1,0 +1,14 @@
+.view-details-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.view-details{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.admin-actions{
+    display: flex;
+    column-gap: 10px;
+}

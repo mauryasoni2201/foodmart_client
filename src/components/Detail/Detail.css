@@ -1,0 +1,26 @@
+.view-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user-detail h2{
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 500;
+}
+.user-detail b{
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+}
+.user-detail span{
+    font-size: 20px;
+    line-height: 24px;
+    padding: 0px 5px;
+}
+@media(max-width:767px){
+    .user-detail h2{
+        font-size: 18px;
+        line-height: 22px;
+    }
+}

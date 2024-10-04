@@ -1,0 +1,74 @@
+.reviews{
+    padding-top: 30px;
+    padding-bottom: 0px;
+}
+.reviews .container{
+    width: 100%;
+    max-width: 1430px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+.reviews-title h2{    
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 700;
+    text-align: center;
+}
+.review-card-main{
+    padding:30px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    margin: 0px -15px;
+    height: 100%;
+}
+.review-card-wrapper{
+    width: 33.33%;
+    padding:0px 15px;
+}
+.review-card{
+    background-color:#f4f5f7;
+    display: flex;
+    padding:15px;
+    border-radius: 10px;
+    flex-direction: column;
+    gap:10px;
+    height: 100%;
+}
+.reviewer-name h3{
+    font-size:20px;
+    line-height: 24px;
+    font-weight: 600;
+}
+.reviewer-email h4{
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 500;
+}
+.reviewer-comment p,.review-date{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+}
+@media (max-width:991px){
+    .review-card-wrapper{
+        width: 50%;
+    }
+}
+@media(max-width:767px){
+    .review-card-wrapper{
+        width: 100%;
+    }
+    .reviewer-name h3{
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .reviewer-email h4{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .reviewer-comment p, .review-date{
+        font-size: 15px;
+        line-height: 20px;
+    }
+}

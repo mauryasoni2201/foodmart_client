@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Titillium Web", sans-serif;
+    box-sizing: border-box;
+}
+body{
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+}
+.avatar-design{
+    background-color:#FF8343 !important;
+}
+.avatar-design span{
+    font-size: 25px !important;
+    line-height: 30px !important;
+    font-weight: 700; 
+    color: black !important;
+}
+.nocontent-text{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.nocontent-text p{
+    text-align: center;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 500;
+}
+.back-wrapper{
+    width: 100%;
+    max-width: 750px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: end;
+    padding-bottom: 20px;
+}
+.no-profile-photo{
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 50%;
+}
+.MuiBox-root .css-hmd0fc-MuiRating-root span span{
+    font-size: 1.5rem !important;
+}
+.swal2-title{
+    line-height: 36px;
+}
+.align-pagination{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+.no-padding{
+    padding-top: 50px;
+    padding-bottom: 0px !important;
+}
+.user-detail .css-hmd0fc-MuiRating-root span{
+    padding: 0px;
+}
+@media (max-width:767px){
+    .nocontent-text p{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .hudJpJ .ddvZdT{
+        font-size: 18px !important; 
+        line-height: 22px !important;
+    }
+    .bOmZtP div:first-child {
+        font-size: 16px !important;
+        line-height: 22px !important;
+    }
+}

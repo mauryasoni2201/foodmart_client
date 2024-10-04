@@ -1,0 +1,35 @@
+.food-slider .slick-prev,.food-slider .slick-next{
+  display: none !important;
+}
+.food-slider{
+  padding-top: 40px;
+}
+.slider-food-image{
+    position: relative;
+    height: 400px;  
+}
+.food-details-wrapper section{
+  padding-bottom: 0px;
+}
+.related-products-wrapper h1{
+  display: none;
+  font-size: unset;
+  line-height: unset;
+  font-weight: unset;
+}
+.related-products-wrapper h2{
+  font-size: 30px;
+  line-height: 35px;
+  font-weight: 700;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.food-name h1{
+  display: block;
+}
+@media(max-width:767px){
+  .related-products-wrapper h2{
+    font-size: 22px;
+    line-height: 26px;
+  }
+}

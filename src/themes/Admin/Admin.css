@@ -1,0 +1,118 @@
+.add-food-item-button{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-bottom:30px;
+}
+.food-options{
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+}
+.hudJpJ{
+  background-color:#FFD7C4 !important;
+  color: black;
+}
+.dknajr{
+  border: 1px solid black !important; 
+}
+.dQcPXM{
+    border-right: 1px solid black !important;
+    border-bottom: 1px solid black !important;
+}
+.dLHSn,.bzEluS{
+   padding:10px !important;
+   justify-content: center;
+}
+.bOmZtP div:first-child{
+   font-size: 18px;
+   line-height: 22px;
+   font-weight: 400;
+}
+.dknajr{
+    border-collapse: collapse;
+}
+.hudJpJ .ddvZdT{
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 600;
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  } 
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  input:checked + .slider {
+    background-color: #FF8343;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #FF8343;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  .slider.round {
+    border-radius: 34px;
+  }
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  .space{
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+.user-order-info{
+  display: flex;
+  justify-content: space-between;
+}
+.user-review{
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.left-align{
+  padding: 0px !important;
+  text-align: left !important;
+}
+.left-align p{
+  max-width: 300px;
+}
+@media (max-width:767px){
+  .space {
+    row-gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

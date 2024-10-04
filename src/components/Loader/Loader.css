@@ -1,0 +1,19 @@
+.loader-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.loading{
+    border: 10px solid #D8D9DA;
+    border-right: 10px solid #FF8343;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    animation: loaderAnimation 1s ease-in-out infinite;
+}
+@keyframes loaderAnimation{
+    100% { 
+        transform: rotate(360deg); 
+    }
+}

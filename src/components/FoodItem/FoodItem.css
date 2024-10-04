@@ -1,0 +1,31 @@
+.food-item{
+    padding: 0px 15px;
+    position: relative;
+    width:33.33%;
+}
+.food-item-wrapper{
+    background-color:white;
+    height: 100%;
+    box-shadow: 2px 2px 4px black;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.orders{
+    width: 100%;
+}
+@media(max-width:991px){
+    .orders{
+        width: 100% !important;
+    }
+    .food-item{
+        width: 50%;
+    }
+}
+@media(max-width:767px){
+    .orders{
+        width: 100% !important;
+    }
+    .food-item{
+        width: 100%;
+    }
+}

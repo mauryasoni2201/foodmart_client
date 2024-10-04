@@ -1,0 +1,205 @@
+.food-overlay{
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    background-color: #FFFFFF99;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    font-family: Titillium Web;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    padding: 5px;
+    line-height: 18px;
+    text-transform: capitalize;
+}
+.food-details{
+    padding: 21px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+.food-name h1{
+    font-size: 22px;
+    max-width: 418px;
+    font-weight: 600;
+    line-height: 28px;
+    padding: 0;
+    color: #000;
+    text-align: start;
+}
+.food-description p{
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 418px;
+    line-height: 24.34px;
+    color: #000;
+}
+.food-price{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    color: #000;
+}
+.food-options{
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+}
+.other-options{
+    flex-wrap: wrap;
+    justify-content: unset;
+    column-gap: unset;
+}
+.cart-decrease{
+    display:flex;
+    justify-content:end;
+    padding-right:10px;
+}
+.cart-button{
+    width: 50%;
+}
+.remove-button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-right: 5px;
+    padding-top: 15px;
+}
+.edit-profile{
+    width: 100%;
+    max-width: 750px;
+    border-radius:10px;
+    box-shadow: 2.5px 2.5px 5px black;
+    padding: 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.update-photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.update-form{
+    padding-top: 30px;
+}
+.review-form form{
+    display: flex;
+    row-gap: 10px;
+    flex-direction: column;
+}
+.review-form input,.review-form textarea{
+    font-size: 16px;
+    line-height: 22px;
+    height: 40px;
+    padding: 0px 5px;
+}
+.review-form textarea{
+    border: none;
+    border-bottom: 1px solid #DEE2E7;    ;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 400;
+    height: unset;
+}
+.review-options{
+    display: flex;
+    justify-content: center;
+    column-gap: 15px;
+}
+.order-wrapper{
+    padding: 15px;
+    display: flex;
+    border-bottom: 1px solid #DEE2E7;
+    justify-content: space-between;
+}
+.order-content{
+    display: flex;
+    column-gap: 10px;
+}
+.order-name h2{
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 26px;
+}
+.order-category h3{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    color:#8B96A5;
+}
+.order-price h4{
+    text-align: end;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+}
+.order-quantity h5,.order-total h6,p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+}
+.give-review{
+    padding: 15px;
+}
+.order-total{
+    padding: 5px 15px;
+    text-align: end;
+}
+.review-text{
+    font-size: 18px;
+    line-height:22px;
+    font-weight: 700;
+}
+.totalprice{
+    text-align: center;
+    padding-bottom:15px;
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 500;
+}
+.app-options{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.align-end{
+    justify-content: end;
+}
+.option{
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+@media(max-width:767px){
+    .order-name h2{
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .order-category h3{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .food-name h1,.totalprice{
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .order-price h4,.review-text,.order-quantity h5,.order-total h6,p,.food-price{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .food-overlay{
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .app-options{
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+    .edit-profile{
+        padding: 15px;
+    }
+}
